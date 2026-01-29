@@ -1,0 +1,42 @@
+/* Education page styles for right column */
+.education-page {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    overflow-y: auto;
+}
+
+.education-page .title {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.education-page .edu-box {
+    border-left: var(--border);
+    margin: 0;
+    max-width: 100%;
+}
+
+.education-page .edu-box .edu-content {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.education-page .edu-box .edu-content h3 {
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+}
+
+.education-page .edu-box .edu-content p {
+    font-size: 0.75rem;
+    margin: 0.2rem 0;
+}
+
+.education-page .year {
+    font-size: 0.75rem;
+    color: var(--main-color);
+    display: block;
+    margin-bottom: 0.3rem;
+}
