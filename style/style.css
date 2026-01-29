@@ -125,10 +125,10 @@ body {
 }
 
 .profile-page img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 50%;
+    width: 350px !important;
+    height: 350px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
     margin-top: 0;
     margin-bottom: 0.8rem;
 }
